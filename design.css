@@ -1,0 +1,129 @@
+
+body {
+   background-image:url(https://i.ibb.co/Bc2YLgb/BACKGROUND.jpg);
+   background-size:2000px 2000px;
+   background-repeat: no-repeat;
+}
+
+/* a custom image is used as the background */
+
+.main {
+    border-color: rgb(160, 110, 110);
+    color: white;
+    margin: auto;
+    size:2em ;
+    width: 27em;
+    background-color: white;
+    color: black;
+    padding: 1em;
+    margin-top: 10em;  
+    box-shadow: 2px 2px 2px 2px silver;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+
+.options {
+    background-color: white;
+}
+
+.options {
+    display: flex;
+    width: 27em;
+    align-items:center;
+    padding:0em 0em 0em 2em;
+    height: 2.5em;
+    margin: auto;
+    margin-top: 1em;
+    box-shadow: 2px 2px 2px 2px silver;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#microsoft {
+padding: 1.5em 0em 0.2em 2em;
+display: flex;
+align-items: center;
+}
+#signin {
+    padding: 0.8em 0em 0.8em 1.7em;
+    font-size: 1.2em;
+    font-weight: 545;
+}
+#input{
+    padding: 0em 0em 1em 2em;
+    border: 0em 0em 0.1em 0em;
+
+}
+#account {
+    padding: 0em 0em 1em 2em;
+}
+#key {
+    padding: 0em 0em 1em 2em;
+    display: flex;
+    align-items: center;
+}
+#next{
+    padding: 0em 0em 1.5em 20em;
+}
+#link {
+    text-decoration: none;
+    color: rgb(0 164 239);
+}
+#nextbutton {
+    background-color: #0067b8;
+    color: white;
+    width: 7em;
+    border: none;
+    height: 2em;
+}
+#keybutton {
+    text-decoration: none;
+    color: rgb(0 164 239);
+}
+#email {
+    border-top:none ;
+    border-left: none;
+    border-right: none;
+    width: 28em;
+}
+#logomargin {
+    margin-left: 0.3em;
+    font-size: large;
+    font-weight: 550;
+    color: rgb(134, 132, 132);
+}
+#signinoptions {
+    text-decoration: none;
+    color: black;
+    text-decoration: light;
+}
+#keyimage{
+    padding-left: 1em;
+}
+
+#nextbutton:hover {
+    background-color: #00518f;
+    color: white;
+    width: 7em;
+    border: none;
+    height: 2em;
+}
+#signinopetions:hover{
+    background-color: grey;
+}
+
+#keybutton:hover {
+    text-decoration: underline;
+    color: rgb(133, 133, 133);
+}
+
+#link:hover {
+    text-decoration: underline;
+    color: rgb(133, 133, 133);
+}
+
+#options:hover{
+    background-color: silver;
+}
+#image{
+    margin-left: 0.2em;
+    margin-top: 0.2em;
+}
